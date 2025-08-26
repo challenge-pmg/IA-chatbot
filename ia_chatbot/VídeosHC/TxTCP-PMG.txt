@@ -1,0 +1,43 @@
+Murilo Bastos — RM561287
+Pedro Henrique — RM562312
+Guilherme Lisboa — RM565187
+
+
+Informações Watson:
+
+API KEY:Zvt-jwMTrNkn8pIomk6avidzvxWI8On7NyYGmB94XiIv
+
+API URL: https://api.au-syd.assistant.watson.cloud.ibm.com/instances/71e6ffbd-d63c-44eb-83e7-14d778c66546
+
+Assist ID: a96457e8-5c9c-4ca6-8466-02d50f57390f
+
+--
+
+Text to Speech:
+
+API Key: hMej6aQL6we1Ga9njF1ZHcB14Ua4KlkEEraUdhhfflaM
+
+API URL: https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/9bc8a0e4-f1ac-4515-8ece-b5b9c4bea29b
+
+--
+
+Speech to Text
+
+API Key: kav0up5mwgeeQ79ne0MzCCVnZkR2NFWJjDAjPSHDeqWf
+
+API URL: https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/c1fe247f-d4a6-472a-b0cc-1c8505634c15
+
+--
+
+Telegram
+
+PMGBOTHC
+
+7346241496:AAGnvaJTDcyym0v6oEBure6Qg6WaX_MypgM
+
+
+
+VIDEOS:
+
+TELEGRAM: https://youtu.be/Y98gq9eYCbo
+SITE: https://youtu.be/scnkXt0pVOI

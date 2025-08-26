@@ -1,0 +1,1065 @@
+{
+  "intents": [
+    {
+      "intent": "FalarComAtendente",
+      "examples": [
+        {
+          "text": "Atendente humano, por favor"
+        },
+        {
+          "text": "Isso é complicado, tem alguém pra ajudar?"
+        },
+        {
+          "text": "Isso não resolveu, tem outra pessoa?"
+        },
+        {
+          "text": "Me passa pro suporte"
+        },
+        {
+          "text": "Não entendi, chama alguém por favor"
+        },
+        {
+          "text": "Pode chamar alguém?"
+        },
+        {
+          "text": "Pode me transferir pra alguém?"
+        },
+        {
+          "text": "Preciso de ajuda com isso"
+        },
+        {
+          "text": "Prefiro falar com uma pessoa"
+        },
+        {
+          "text": "Quero atendimento humano"
+        },
+        {
+          "text": "Quero falar com um atendente"
+        },
+        {
+          "text": "Tem como falar com um funcionário?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "MarcarConsulta",
+      "examples": [
+        {
+          "text": "Agendar uma consulta"
+        },
+        {
+          "text": "Como agendar uma consulta pelo celular?"
+        },
+        {
+          "text": "Como faço pra marcar exame?"
+        },
+        {
+          "text": "Como marcar pelo aplicativo?"
+        },
+        {
+          "text": "Consulta com neurologista, tem vaga?"
+        },
+        {
+          "text": "Me ajuda a agendar uma consulta"
+        },
+        {
+          "text": "Preciso de um horário com o médico"
+        },
+        {
+          "text": "Preciso marcar uma consulta pro meu pai"
+        },
+        {
+          "text": "Queria marcar um atendimento"
+        },
+        {
+          "text": "Queria um horário no hospital"
+        },
+        {
+          "text": "Quero marcar uma consulta"
+        },
+        {
+          "text": "Tem consulta disponível essa semana?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ProblemasTecnicos",
+      "examples": [
+        {
+          "text": "Aparece erro na hora de abrir"
+        },
+        {
+          "text": "A tela fica preta"
+        },
+        {
+          "text": "Meu celular não roda o app"
+        },
+        {
+          "text": "Não consigo entrar com meu CPF"
+        },
+        {
+          "text": "Não consigo enviar mensagem"
+        },
+        {
+          "text": "Não escuto o áudio"
+        },
+        {
+          "text": "Não recebi o código de confirmação"
+        },
+        {
+          "text": "O aplicativo não tá funcionando"
+        },
+        {
+          "text": "O botão de marcar consulta sumiu"
+        },
+        {
+          "text": "O som parou"
+        },
+        {
+          "text": "Tá travando muito"
+        },
+        {
+          "text": "Tem algum problema com o site?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ReagendarConsulta",
+      "examples": [
+        {
+          "text": "Como reagendar o horário?"
+        },
+        {
+          "text": "Como remarcar sem ligar pro hospital?"
+        },
+        {
+          "text": "Consulta caiu em feriado, e agora?"
+        },
+        {
+          "text": "Consulta marcada pra terça, posso mudar?"
+        },
+        {
+          "text": "Dá pra remarcar pro final de semana?"
+        },
+        {
+          "text": "Não vou poder ir, posso mudar?"
+        },
+        {
+          "text": "Posso reagendar?"
+        },
+        {
+          "text": "Preciso reagendar pro mês que vem"
+        },
+        {
+          "text": "Preciso remarcar minha consulta"
+        },
+        {
+          "text": "Quero mudar a data"
+        },
+        {
+          "text": "Quero trocar o dia da consulta"
+        },
+        {
+          "text": "Tem outro horário disponível?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "Ei"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oii"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Ou"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "TirarDuvidas",
+      "examples": [
+        {
+          "text": "Como chegar no hospital?"
+        },
+        {
+          "text": "Como funciona o atendimento?"
+        },
+        {
+          "text": "Dá pra fazer isso pelo telefone?"
+        },
+        {
+          "text": "Onde é o hospital?"
+        },
+        {
+          "text": "Onde fica o setor de reabilitação?"
+        },
+        {
+          "text": "O que devo levar na primeira consulta?"
+        },
+        {
+          "text": "Pode explicar como funciona o aplicativo?"
+        },
+        {
+          "text": "Quais documentos preciso levar?"
+        },
+        {
+          "text": "Quais são os horários de atendimento?"
+        },
+        {
+          "text": "Que exames eu preciso fazer antes?"
+        },
+        {
+          "text": "Vocês atendem aos sábados?"
+        },
+        {
+          "text": "Vocês atendem por convênio?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Confirmacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            " não quero",
+            "negativo",
+            " prefiro não"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "claro",
+            "com certeza",
+            "pode ser"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "talvez",
+          "synonyms": [
+            "ainda não sei",
+            "quem sabe"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "DiasSemana",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "domingo",
+          "synonyms": [
+            "dom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quarta-feira",
+          "synonyms": [
+            "qua",
+            "quarta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quinta-feira",
+          "synonyms": [
+            "qui",
+            "quinta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sábado",
+          "synonyms": [
+            "sab"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "segunda-feira",
+          "synonyms": [
+            "seg",
+            "segunda",
+            "segundo a"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sexta-feira",
+          "synonyms": [
+            "sex",
+            "sexta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "terça-feira",
+          "synonyms": [
+            "ter",
+            "terça"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "EspecialidadeMedica",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cardiologia",
+          "synonyms": [
+            "cardiologista",
+            "coração"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fisioterapia",
+          "synonyms": [
+            "fisio",
+            "reabilitação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "neurologia",
+          "synonyms": [
+            "cérebro",
+            "neurologista"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ortopedia",
+          "synonyms": [
+            "ortopedista",
+            "ossos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "psiquiatria",
+          "synonyms": [
+            "mente",
+            "psiquiatra"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Horarios",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "14h",
+          "synonyms": [
+            "14 horas",
+            "2 da tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "18h",
+          "synonyms": [
+            "18 horas",
+            "6 da tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "8h",
+          "synonyms": [
+            "8 horas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "manhã",
+          "synonyms": [
+            "cedo",
+            "de manhã"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "noite",
+          "synonyms": [
+            "à noite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tarde",
+          "synonyms": [
+            "à tarde"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ProblemaTecnico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "áudio",
+          "synonyms": [
+            "microfone",
+            "som"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "erro",
+          "synonyms": [
+            "bug",
+            "falha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "login",
+          "synonyms": [
+            "autenticação",
+            "entrar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "notificação",
+          "synonyms": [
+            "alerta",
+            "aviso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "travamento",
+          "synonyms": [
+            "lento",
+            "travando"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vídeo",
+          "synonyms": [
+            "câmera",
+            "imagem"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#saudacao",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_2_1748219315196",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual novo horário prefere?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1748219874148",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1748219874148",
+      "previous_sibling": "handler_9_1748219874148"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para qual novo dia?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1748219854881",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1748219854881",
+      "previous_sibling": "handler_6_1748219854881"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual especialidade você deseja?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1748219350625",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1748219350631",
+      "previous_sibling": "handler_7_1748219350631"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual especialidade você deseja reagendar?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1748219831681",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1748219831689",
+      "previous_sibling": "handler_9_1748219831689"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual horário prefere?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1748219387116",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1748219387117",
+      "previous_sibling": "handler_6_1748219387117"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para qual dia?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1748219377674",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1748219377674",
+      "previous_sibling": "handler_9_1748219377674"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1748219387116",
+      "context": {
+        "horario": "@Horarios"
+      },
+      "conditions": "@Horarios",
+      "event_name": "input",
+      "dialog_node": "handler_6_1748219387117"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1748219854881",
+      "context": {
+        "dia": "@DiasSemana"
+      },
+      "conditions": "@DiasSemana",
+      "event_name": "input",
+      "dialog_node": "handler_6_1748219854881"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1748219350625",
+      "context": {
+        "especialidade": "@EspecialidadeMedica"
+      },
+      "conditions": "@EspecialidadeMedica",
+      "event_name": "input",
+      "dialog_node": "handler_7_1748219350631"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1748219377674",
+      "context": {
+        "dia": "@DiasSemana"
+      },
+      "conditions": "@DiasSemana",
+      "event_name": "input",
+      "dialog_node": "handler_9_1748219377674"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1748219831681",
+      "context": {
+        "especialidade": "@EspecialidadeMedica"
+      },
+      "conditions": "@EspecialidadeMedica",
+      "event_name": "input",
+      "dialog_node": "handler_9_1748219831689"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1748219874148",
+      "context": {
+        "horario": "@Horarios"
+      },
+      "conditions": "@Horarios",
+      "event_name": "input",
+      "dialog_node": "handler_9_1748219874148"
+    },
+    {
+      "type": "standard",
+      "title": "Tirar Duvidas",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#TirarDuvidas",
+      "dialog_node": "node_10_1748219946578",
+      "previous_sibling": "node_1_1748219811262"
+    },
+    {
+      "type": "frame",
+      "title": "Reagendar Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sua consulta de $especialidade foi reagendada para $dia às $horario. Deseja alterar mais alguma coisa?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ReagendarConsulta",
+      "dialog_node": "node_1_1748219811262",
+      "previous_sibling": "node_3_1748220477563"
+    },
+    {
+      "type": "standard",
+      "title": "Endereço",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos localizados na Av. Dr. Enéas de Carvalho Aguiar, 255 – São Paulo, SP.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748219946578",
+      "conditions": "input.text.contains(\"endereço\") || input.text.contains(\"local\")",
+      "dialog_node": "node_1_1748220310463",
+      "previous_sibling": "node_4_1748219986145"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chat encerrado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1748220555313",
+      "conditions": "@Confirmacao:não",
+      "dialog_node": "node_1_1748220767913",
+      "previous_sibling": "node_3_1748220659119"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chat Encerrado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1748219315196",
+      "conditions": "@Confirmacao:não",
+      "dialog_node": "node_1_1748220982228"
+    },
+    {
+      "type": "frame",
+      "title": "Marcar Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sua consulta de $especialidade foi agendada para $dia às $horario. Algo mais que posso te ajudar?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#MarcarConsulta",
+      "dialog_node": "node_2_1748219315196",
+      "previous_sibling": "node_10_1748219946578"
+    },
+    {
+      "type": "standard",
+      "title": "Documento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você deve levar documento com foto (RG ou CNH) e o cartão do SUS.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748219946578",
+      "conditions": "input.text.contains(\"documento\")",
+      "dialog_node": "node_2_1748220357329",
+      "previous_sibling": "node_1_1748220310463"
+    },
+    {
+      "type": "standard",
+      "title": "Problemas Tecnicos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poxa! Vamos tentar resolver isso juntos.\n\nVocê já tentou reiniciar o app ou o celular? Às vezes isso resolve.\n\nSe o problema continuar, você pode:\n- Tentar acessar por outro dispositivo\n- Verificar a conexão com a internet\n- Atualizar o app na loja\n\nSe nada funcionar, posso te direcionar para um atendente humano. Deseja isso?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ProblemasTecnicos",
+      "dialog_node": "node_2_1748220555313",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Não Encontrado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, não encontrei essa informação. Quer falar com um atendente?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748219946578",
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1748220415653",
+      "previous_sibling": "node_2_1748220357329"
+    },
+    {
+      "type": "standard",
+      "title": "Falar Com Atendente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo! Vou te transferir para um atendente humano. Um momento, por favor...\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Infelizmente no momento não temos um atendente disponível via chat. Você pode ligar para (11) 9999-9999 ou aguardar que alguém entre em contato.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#FalarComAtendente",
+      "dialog_node": "node_3_1748220477563",
+      "previous_sibling": "node_2_1748220555313"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1748220555313",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1748220477563"
+      },
+      "conditions": "@Confirmacao:sim",
+      "dialog_node": "node_3_1748220659119"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1748219315196",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Confirmacao:sim",
+      "dialog_node": "node_3_1748220947679",
+      "previous_sibling": "node_1_1748220982228"
+    },
+    {
+      "type": "standard",
+      "title": "Horário",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Atendemos de segunda a sexta, das 8h às 17h.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1748219946578",
+      "conditions": "input.text.contains(\"horário\")",
+      "dialog_node": "node_4_1748219986145"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1748219811262",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@Confirmacao:sim",
+      "dialog_node": "node_4_1748220866982",
+      "previous_sibling": "node_5_1748220822684"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chat encerrado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1748219811262",
+      "conditions": "@Confirmacao:não",
+      "dialog_node": "node_5_1748220822684"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1748219315196",
+      "variable": "$especialidade",
+      "dialog_node": "slot_5_1748219350625",
+      "previous_sibling": "node_3_1748220947679"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1748219315196",
+      "variable": "$dia",
+      "dialog_node": "slot_6_1748219377674",
+      "previous_sibling": "slot_5_1748219350625"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1748219811262",
+      "variable": "$especialidade",
+      "dialog_node": "slot_6_1748219831681",
+      "previous_sibling": "node_4_1748220866982"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1748219811262",
+      "variable": "$dia",
+      "dialog_node": "slot_8_1748219854881",
+      "previous_sibling": "slot_6_1748219831681"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1748219811262",
+      "variable": "$horario",
+      "dialog_node": "slot_8_1748219874148",
+      "previous_sibling": "slot_8_1748219854881"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1748219315196",
+      "variable": "$horario",
+      "dialog_node": "slot_9_1748219387116",
+      "previous_sibling": "slot_6_1748219377674"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Desafio HC-dialog"
+}
